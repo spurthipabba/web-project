@@ -25,5 +25,6 @@ function toggle(){
 
  document.getElementById("card-image").src = users[curIndex].image
  document.getElementById("card-name").innerText =users[curIndex].name
- //gender needs to be updated
+
+ document.getElementById("card-gender").innerText =users[curIndex].gender
 }
